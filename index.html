@@ -3,53 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Penthouse for Sale — The Pointe of St. Paul</title>
+
+  <!-- ~60 chars: lead with what searchers type (property type + neighborhood + building) -->
+  <title>Penthouse Condo for Sale, Downtown St. Paul | The Pointe #3410</title>
+
+  <!-- ~155 chars: this is your search-result "ad copy" -->
+  <meta name="description" content="2BR/2BA corner penthouse on the 34th floor of The Pointe of St. Paul. 989 sq ft, panoramic Capitol and river views, 2 garage stalls, pool, in-unit laundry.">
+
+  <link rel="canonical" href="https://www.penthouse3410.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#fafaf8">
+
+  <!-- Open Graph / social sharing (Facebook, iMessage, LinkedIn, Slack previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.penthouse3410.com/">
+  <meta property="og:title" content="Corner Penthouse for Sale at The Pointe of St. Paul">
+  <meta property="og:description" content="2BR/2BA corner penthouse, 34th floor, panoramic views of the State Capitol, Minneapolis skyline, and Mississippi River.">
+  <!-- Currently a skyline photo from Wikimedia Commons; swap in a 1200x630 photo of the unit's view when available -->
+  <meta property="og:image" content="https://www.penthouse3410.com/images/og-view.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The brick tower of The Pointe of St. Paul in the downtown Saint Paul skyline">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data. Google has no real-estate rich result, but this helps search engines
+       understand the page as a listing (address, beds, baths, size, geo). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateListing",
+    "name": "2-Bedroom Corner Penthouse at The Pointe of St. Paul, Unit 3410",
+    "url": "https://www.penthouse3410.com/",
+    "description": "Two-bedroom, two-bathroom corner penthouse on the 34th floor of The Pointe of St. Paul with panoramic views, two garage stalls, storage locker, and in-unit laundry.",
+    "datePosted": "2026-09-15",
+    "image": [
+      "https://www.penthouse3410.com/images/og-view.jpg",
+      "https://www.penthouse3410.com/images/pointe-exterior.jpg"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Person",
+        "name": "Mallory Garofalo",
+        "worksFor": { "@type": "RealEstateAgent", "name": "Keller Williams" }
+      }
+    },
+    "about": {
+      "@type": "Apartment",
+      "name": "The Pointe of St. Paul, Unit 3410",
+      "numberOfBedrooms": 2,
+      "numberOfBathroomsTotal": 2,
+      "floorLevel": "34",
+      "floorSize": { "@type": "QuantitativeValue", "value": 989, "unitCode": "FTK" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "78 E 10th St, Unit 3410",
+        "addressLocality": "Saint Paul",
+        "addressRegion": "MN",
+        "postalCode": "55101",
+        "addressCountry": "US"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 44.950211, "longitude": -93.095758 },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Heated indoor pool", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Fitness center", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "In-unit washer and dryer", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Two garage parking stalls", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "24-hour on-site security", "value": true }
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
 
   <header>
-    <h1>Penthouse at The Pointe of St. Paul</h1>
-    <p><a href="https://maps.app.goo.gl/Ts7g53LZsqV2vP7WA">Unit 3305 &middot; 78 E 10th Street, Saint Paul, MN 55101</a></p>
+    <h1>Corner Penthouse for Sale at The Pointe of St. Paul</h1>
+    <p><a href="https://maps.app.goo.gl/Ts7g53LZsqV2vP7WA">Unit 3410, 78 E 10th Street, Saint Paul, MN 55101</a></p>
+    <!-- Searchers filter on these. Put them above the fold. -->
+    <p>2 bedrooms | 2 bathrooms | 989 sq ft | 34th floor | 2 garage stalls</p>
   </header>
 
   <main>
 
     <section>
-      <h2>The Highest Address in Downtown St. Paul</h2>
+      <h2>Panoramic Views from the 34th Floor in Downtown St. Paul</h2>
       <p>
-        Perched on the 33rd floor of The Pointe — the tallest residential building in Saint Paul —
-        this two-bedroom corner penthouse delivers something money rarely buys: true panoramic views
-        in every direction. To the north, the gold dome of the Minnesota State Capitol glows against
-        the sky. To the west, the Minneapolis skyline rises above the tree line. To the east and south,
-        the Mississippi River and Pedro Park spread out below you. This is the top of the city, and
-        it shows.
+        Perched on the 34th floor of The Pointe, the tallest residential building in Saint Paul,
+        this two-bedroom corner penthouse delivers true panoramic views. To the north, the gold dome
+        of the Minnesota State Capitol glows against the sky. To the west, the Minneapolis skyline
+        rises above the tree line. To the south, the Mississippi River winds past downtown, with
+        Pedro Park directly below.
       </p>
     </section>
 
-    <figure>
+    <!-- Add real unit photos here as they become available: hosted in /images/, compressed
+         (WebP or JPEG under ~300 KB), with descriptive alt text and width/height attributes. -->
+    <figure class="portrait">
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/The_Pointe_of_St._Paul.jpg/250px-The_Pointe_of_St._Paul.jpg"
-        alt="The Pointe of St. Paul high-rise building exterior, downtown Saint Paul, Minnesota"
-        width="250"
-      >
+        src="images/pointe-exterior.jpg"
+        alt="The Pointe of St. Paul, a brick high-rise condominium tower in downtown Saint Paul, Minnesota"
+        width="809" height="1024" loading="eager">
       <figcaption>
-        The Pointe of St. Paul &mdash; the tallest residential tower in Saint Paul.
-        Photo: Wikimedia Commons, CC BY-SA.
+        The Pointe of St. Paul, the tallest residential tower in Saint Paul.
+        Photo: <a href="https://commons.wikimedia.org/wiki/File:The_Pointe_of_St._Paul.jpg">McGhiever</a>,
+        <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>.
       </figcaption>
     </figure>
 
     <section>
-      <h2>Inside the Unit</h2>
+      <h2>Inside the 2-Bedroom, 2-Bath Penthouse</h2>
       <p>
-        This corner unit was designed to live as well as it looks. The open layout connects the
-        living and dining areas seamlessly, drawing natural light from multiple exposures throughout
-        the day. Recent upgrades include upgraded lighting, newer woodwork, and wood-look tile
-        floors throughout. The kitchen is open and functional, and the in-unit washer and dryer
-        means no trips to a shared laundry room.
+        This 989-square-foot corner unit was designed to live as well as it looks. The open layout
+        connects the living and dining areas, drawing natural light from two exposures throughout
+        the day. Recent upgrades include new lighting, newer woodwork, and wood-look tile floors
+        throughout. The kitchen is open and functional, and the in-unit washer and dryer means no
+        trips to a shared laundry room.
       </p>
       <ul>
-        <li>Two bedrooms</li>
+        <li>Two bedrooms and two bathrooms</li>
+        <li>989 square feet</li>
         <li>Corner unit with windows on two sides</li>
         <li>Upgraded lighting and newer woodwork throughout</li>
         <li>Wood-look tile floors throughout</li>
@@ -62,10 +138,9 @@
     </section>
 
     <section>
-      <h2>Building Amenities</h2>
+      <h2>Amenities at The Pointe of St. Paul</h2>
       <p>
-        The Pointe is the most amenity-rich building in Saint Paul. Residents enjoy resort-style
-        facilities that are rare in any city at this price point:
+        The Pointe offers resort-style amenities that are rare in downtown condos at this price point:
       </p>
       <ul>
         <li>Heated indoor pool, hot tub, and sauna</li>
@@ -84,33 +159,61 @@
     </section>
 
     <section>
-      <h2>Location</h2>
+      <h2>Downtown St. Paul Location</h2>
       <p>
-        The Pointe sits at the corner of Minnesota Avenue and 10th Street in the heart of downtown
-        Saint Paul. Everything the city offers is steps away: the St. Paul Farmers Market, Xcel
-        Energy Center, the Ordway Center for the Performing Arts, the Fitzgerald Theater, Rice Park,
-        the Minnesota Children's Museum, and a wide range of restaurants along St. Peter Street. The
-        Green Line light rail stop at 10th Street is just two blocks away, connecting you directly
-        to Minneapolis. Pedro Park, the newly renovated neighborhood park across the street, offers
-        shaded gathering areas, a pavilion, a playground, and a dog area.
+        The Pointe sits at the corner of Minnesota Street and 10th Street in downtown Saint Paul,
+        directly across from Pedro Park and a Lunds &amp; Byerlys grocery store. Within walking
+        distance you'll find Xcel Energy Center, the Ordway Center for the Performing Arts, the
+        Fitzgerald Theater, Rice Park, the Minnesota Children's Museum, the St. Paul Farmers Market
+        in Lowertown, and restaurants along St. Peter Street.
       </p>
       <p>
-        Interstates 94 and 35E are minutes away by car, and Minneapolis&ndash;St. Paul International
-        Airport is roughly 15 minutes from your door. A Lunds &amp; Byerlys grocery store is
-        right across the street.
+        The METRO Green Line 10th Street station is two blocks away with direct light rail service
+        to Minneapolis. Interstates 94 and 35E are minutes away, and Minneapolis&ndash;St. Paul
+        International Airport is about 15 minutes by car.
       </p>
+      <figure>
+        <img
+          src="images/saint-paul-skyline.jpg"
+          alt="Downtown Saint Paul skyline with the brick tower of The Pointe of St. Paul rising left of the Wells Fargo Place tower"
+          width="1600" height="900" loading="lazy">
+        <figcaption>
+          The Pointe (brick tower, left of center) in the downtown Saint Paul skyline.
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:St._Paul_Skyline_and_Minnesota_Department_of_Human_Services_Building_(30579349777).jpg">Tony Webster</a>,
+          <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, cropped.
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- FAQ content captures long-tail searches ("pointe of st paul hoa fees", "pets allowed") -->
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      <h3>What do the HOA fees cover at The Pointe of St. Paul?</h3>
+      <ul>
+        <li><strong>Utilities:</strong> heating, air conditioning, water, and sanitation/trash removal</li>
+        <li><strong>Maintenance:</strong> building exterior, lawn care, grounds maintenance, and snow removal</li>
+        <li><strong>Building operations:</strong> professional management, security staff, controlled access, and security systems</li>
+        <li><strong>Insurance:</strong> hazard and master building insurance</li>
+        <li><strong>Parking:</strong> designated parking space access</li>
+        <li><strong>Shared amenities:</strong> access to community recreation facilities and shared spaces</li>
+      </ul>
+      <h3>Is parking included?</h3>
+      <p>Yes. Two garage stalls in the attached ramp are included, plus a separate storage locker.</p>
+      <h3>Are pets allowed?</h3>
+      <p>
+        Yes. The association allows pets. Breed restrictions, weight limits, and registration
+        requirements may apply under building rules, so confirm current details with the listing agent.
+      </p>
+      <h3>How far is it to Minneapolis?</h3>
+      <p>The Green Line light rail runs directly to downtown Minneapolis from the 10th Street station two blocks away.</p>
     </section>
 
     <section>
-      <h2>Contact</h2>
-      <p>
-        To schedule a showing or request more information, please get in touch:
-      </p>
+      <h2>Schedule a Showing</h2>
+      <p>To schedule a showing or request more information, contact the listing agent:</p>
       <address>
         <p>
-          <strong>Realtor Name Here</strong><br>
-          555-555-5555<br>
-          realtor@example.com
+          <strong>Mallory Garofalo</strong>, Keller Williams
         </p>
       </address>
     </section>

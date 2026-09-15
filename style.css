@@ -42,6 +42,10 @@ figure img {
   height: auto;
 }
 
+figure.portrait img {
+  width: 320px;
+}
+
 figcaption {
   font-size: 0.85rem;
   color: #666;
